@@ -1,0 +1,64 @@
+.progressCard {
+  width: 20%;
+  height: 70px;
+  position: relative;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  margin: 5px;
+  padding: 10px;
+}
+
+.bar {
+  width: 50px;
+  height: 50px;
+
+  position: absolute;
+  right: 10px;
+  top: auto;
+  bottom: auto;
+}
+
+.barText {
+  /*font-size: 0.02rem;*/
+  /*display: inline;*/
+  position: absolute;
+  margin: 0;
+  color: #111d5e;
+  /*font-size: 10px;*/
+  /*background-color: red;*/
+}
+
+.barText h6 {
+  font-size: 10px;
+  display: inline;
+  margin: 0;
+}
+
+.barText h3 {
+  font-size: 20px;
+  display: inline;
+  margin: 0;
+}
+
+.barText h4 {
+  font-size: 15px;
+  margin: 0;
+}
+
+.feature-box {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 2px 5px #ccc;
+  margin: 5px;
+}
+
+.fas {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #a6dcef;
+}
+
+.btn-primary {
+  background-color: #111d5e;
+}
